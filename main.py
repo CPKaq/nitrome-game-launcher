@@ -1,7 +1,7 @@
 import os
 import io
 import json
-import httpx
+import requests
 import threading
 import webbrowser
 from tkinter import *
@@ -79,13 +79,14 @@ def get_thumbnail(url: str, label_icon: Label, label_icon_alt: Label):
     label_icon.config(image=ImageTk.PhotoImage(EMPTY_IMAGE))
     label_icon_alt.config(text=THUMBNAIL_LOADING_TEXT)
     try:
-        img_open = httpx.get(url, verify=False).content
+        img_open = requests.get(url).content
         data_stream = io.BytesIO(img_open)
         pil_image = Image.open(data_stream)
         _img_png = ImageTk.PhotoImage(pil_image)
-    except Exception:
+    except Exception as e:
         label_icon.config(image=ImageTk.PhotoImage(EMPTY_IMAGE))
         label_icon_alt.config(text=THUMBNAIL_FAIL_TEXT)
+        raise e
     else:
         label_icon.config(image=_img_png)
         label_icon_alt.config(text='')
@@ -101,7 +102,7 @@ def set_game(clicked_game, game_list, selected_game, label_title, label_icon, la
     # img_open = Image.open('img/ico/{}'.format(selected_game.get_param('img')))
     # global _img_png
     # _img_png = ImageTk.PhotoImage(img_open)
-    # img_open = httpx.get(THUMBNAIL_PREFIX + selected_game.get_param('img'), verify=False).content
+    # img_open = requests.get(THUMBNAIL_PREFIX + selected_game.get_param('img'), verify=False).content
     # get_thumbnail(THUMBNAIL_PREFIX + selected_game.get_param('img'))
     thrd(get_thumbnail, THUMBNAIL_PREFIX + selected_game.get_param('img'), label_icon, lable_icon_alt)
     # label_icon.config(image=_img_png)
