@@ -37,7 +37,7 @@
     {
         "arg": "bcbowcontest",
         "img": "ico_bcbowcontest.png",
-        "name": "B.C.Bow Contest",
+        "name": "B.C. Bow Contest",
         "swf": "bcbowcontest.swf",
         "url": "http://www.nitrome.com/games/bcbowcontest/bcbowcontest.swf"
     },
@@ -203,13 +203,6 @@
         "url": "http://www.nitrome.com/games/ditto/ditto.swf"
     },
     {
-        "arg": "doghouse",
-        "img": "ico_doghouse.png",
-        "name": "Dog House",
-        "swf": "doghouse/doghouse.swf",
-        "url": "http://www.nitrome.com/games/doghouse/doghouse.swf"
-    },
-    {
         "arg": "doubleedged",
         "img": "ico_doubleedged.png",
         "name": "Double Edged",
@@ -315,16 +308,9 @@
         "url": "http://www.nitrome.com/games/giftwrapped/giftwrapped.swf"
     },
     {
-        "arg": "glassworks",
-        "img": "ico_glassworks.png",
-        "name": "Glass Works",
-        "swf": "glassworks/glassworks.swf",
-        "url": "http://www.nitrome.com/games/glassworks/glassworks.swf"
-    },
-    {
         "arg": "gogoufo",
         "img": "ico_gogoufo.png",
-        "name": "Go Go Ufo",
+        "name": "Go Go UFO",
         "swf": "gogoufo.swf",
         "url": "http://www.nitrome.com/games/gogoufo/gogoufo.swf"
     },
@@ -380,23 +366,30 @@
     {
         "arg": "icebreaker",
         "img": "ico_icebreaker.png",
-        "name": "Icebreaker",
+        "name": "Ice Breaker",
         "swf": "icebreaker.swf",
         "url": "http://www.nitrome.com/games/icebreaker/icebreaker.swf"
     },
     {
         "arg": "icebreakergathering",
         "img": "ico_icebreakergathering.png",
-        "name": "Icebreaker Gathering",
+        "name": "Ice Breaker: The Gathering",
         "swf": "icebreakergathering.swf",
-        "url": "http://www.nitrome.com/games/icebreaker:thegathering/icebreakerthegathering.swf"
+        "url": "http://www.nitrome.com/games/icebreakergathering/icebreakergathering.swf"
     },
     {
         "arg": "icebreakerredclan",
         "img": "ico_icebreakerredclan.png",
-        "name": "Icebreaker Red Clan",
+        "name": "Ice Breaker: The Red Clan",
         "swf": "icebreakerredclan.swf",
         "url": "http://www.nitrome.com/games/icebreakerredclan/icebreakerredclan.swf"
+    },
+    {
+        "arg": "doghouse",
+        "img": "ico_doghouse.png",
+        "name": "In the Dog House",
+        "swf": "doghouse/doghouse.swf",
+        "url": "http://www.nitrome.com/games/doghouse/doghouse.swf"
     },
     {
         "arg": "jackfrost",
@@ -604,7 +597,7 @@
     {
         "arg": "rubbletrouble",
         "img": "ico_rubbletrouble.png",
-        "name": "Rubble Trouble NY",
+        "name": "Rubble Trouble New York",
         "swf": "rubbletrouble.swf",
         "url": "http://www.nitrome.com/games/rubbletrouble/rubbletrouble.swf"
     },
@@ -744,7 +737,7 @@
     {
         "arg": "steamlandsplayerpack",
         "img": "ico_steamlandsplayerpack.png",
-        "name": "Steamlands PP",
+        "name": "Steamlands Player Pack",
         "swf": "steamlandsplayerpack.swf",
         "url": "http://www.nitrome.com/games/steamlandsplayerpack/steamlandsplayerpack.swf"
     },
@@ -765,7 +758,7 @@
     {
         "arg": "supersnotput",
         "img": "ico_supersnotput.png",
-        "name": "Super Snotput",
+        "name": "Super Snot Put",
         "swf": "supersnotput/supersnotput.swf",
         "url": "http://www.nitrome.com/games/supersnotput/supersnotput.swf"
     },
@@ -854,6 +847,13 @@
         "url": "http://www.nitrome.com/games/thebucket/thebucket.swf"
     },
     {
+        "arg": "glassworks",
+        "img": "ico_glassworks.png",
+        "name": "The Glassworks",
+        "swf": "glassworks/glassworks.swf",
+        "url": "http://www.nitrome.com/games/glassworks/glassworks.swf"
+    },
+    {
         "arg": "thinice",
         "img": "ico_thinice.png",
         "name": "Thin Ice",
@@ -877,13 +877,13 @@
     {
         "arg": "toxic2",
         "img": "ico_toxic2.png",
-        "name": "Toxic 2",
+        "name": "Toxic II",
         "swf": "toxic2.swf",
         "url": "http://www.nitrome.com/games/toxic2/toxic2.swf"
     },
     {
         "arg": "turn-undead",
-        "img": "ico_turn-undead.png",
+        "img": "ico_turnundead.png",
         "name": "Turn-Undead",
         "swf": "turn-undead.swf",
         "url": "http://www.nitrome.com/games/turnundead/turnundead.swf"
